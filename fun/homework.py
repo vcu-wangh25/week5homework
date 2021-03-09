@@ -23,7 +23,7 @@ def add_list_numbers(incoming_list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-    incoming_list = [1,2,3,4]
+    incoming_list = [1,2,3,-4]
     return_value = sum(incoming_list)
     return return_value
     
@@ -33,7 +33,7 @@ def longest_value_key(incoming_dict):
     Required parameter, incoming_dict, should be a dict.
     Find the KEY that has a value with the highest length, use the len() function
     """
-    incoming_dict = {"python","apple","watermelon"}
+    incoming_dict = {"dog": "cat", "a": "asdfasdfasdfasdfasdf"}
     return_value = max(incoming_dict, key=len)
     return return_value
     
