@@ -34,6 +34,6 @@ def longest_value_key(incoming_dict):
     Find the KEY that has a value with the highest length, use the len() function
     """
     incoming_dict = ["python","apple","watermelon"]
-    return_value = max(incoming_dict, key=len)
+    return_value = max(len(incoming_dict))
     return return_value
     
