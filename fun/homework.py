@@ -3,7 +3,7 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    incoming_list = [5,18,3,9]
+    incoming_list = [1,2,3,4,5,6,7,8]
     return_value = max(incoming_list)
     return return_value
     
@@ -13,7 +13,7 @@ def find_least_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the smallest/least number in the list.
     """
-    incoming_list = [5,18,3,9]
+    incoming_list = [1,2,3,4,5,6,7,8]
     return_value = min(incoming_list)
     return return_value
     
@@ -23,7 +23,7 @@ def add_list_numbers(incoming_list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-    incoming_list = [5,18,3,9]
+    incoming_list = [1,2,3,4]
     return_value = sum(incoming_list)
     return return_value
     
