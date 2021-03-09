@@ -3,7 +3,7 @@ def find_greatest_number(incoming):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    incoming = [1,2,3,4]
+    incoming = [1,3,8]
     return_value = max(incoming)
     return return_value
     
