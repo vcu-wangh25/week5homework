@@ -6,7 +6,7 @@ def find_greatest_number(incoming_list):
     incoming_list = [5,18,3,9]
     return_value = max(incoming_list)
     return return_value
-    pass
+    
 
 def find_least_number(incoming_list):
     """
@@ -16,7 +16,7 @@ def find_least_number(incoming_list):
     incoming_list = [5,18,3,9]
     return_value = min(incoming_list)
     return return_value
-    pass
+    
 
 def add_list_numbers(incoming_list):
     """
@@ -26,7 +26,7 @@ def add_list_numbers(incoming_list):
     incoming_list = [5,18,3,9]
     return_value = sum(incoming_list)
     return return_value
-    pass
+    
 
 def longest_value_key(incoming_dict):
     """
@@ -36,4 +36,4 @@ def longest_value_key(incoming_dict):
     incoming_dict = ["python","apple","watermelon"]
     return_value = max(incoming_dict, key=len)
     return return_value
-    pass
+    
