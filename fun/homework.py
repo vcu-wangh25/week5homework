@@ -8,7 +8,6 @@ def find_greatest_number(incoming_list):
     return return_value
     pass
 
-    
 def find_least_number(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
@@ -19,7 +18,6 @@ def find_least_number(incoming_list):
     return return_value
     pass
 
-
 def add_list_numbers(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
@@ -29,7 +27,6 @@ def add_list_numbers(incoming_list):
     return_value = sum(incoming_list)
     return return_value
     pass
-
 
 def longest_value_key(incoming_dict):
     """
